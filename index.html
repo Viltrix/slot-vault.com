@@ -23,17 +23,25 @@
       font-family: Arial, sans-serif;
       margin: 20px;
     }
+    .header-container {
+      display: flex;
+      align-items: center; /* vertically center */
+      justify-content: flex-start; /* align left */
+      max-width: 400px; /* optional max width */
+      margin: 0 auto 20px; /* center container horizontally and add bottom margin */
+      gap: 15px; /* space between image and text */
+    }
     .logo {
+      max-width: 80px; /* smaller logo to fit nicely */
+      margin: 0; /* remove auto margins */
       display: block;
-      margin: 0 auto 10px;
-      max-width: 150px;
     }
     .header-title {
       color: #007acc;
-      font-size: 3em;
+      font-size: 2.5em; /* slightly smaller to fit */
       font-weight: bold;
-      text-align: center;
-      margin-bottom: 20px;
+      text-align: left; /* left align text */
+      margin: 0; /* remove margin to align with image */
     }
     table {
       border-collapse: collapse;
@@ -83,9 +91,11 @@
 </head>
 <body>
 
-  <!-- Logo -->
-  <img src="slot-vault.com.png" alt="Slot Vault Logo" class="logo">
-  <div class="header-title">slot-vault.com</div>
+  <!-- Logo and Title side by side -->
+  <div class="header-container">
+    <img src="slot-vault.com.png" alt="Slot Vault Logo" class="logo">
+    <div class="header-title">slot-vault.com</div>
+  </div>
 
   <table>
     <caption>Top 50 Online Casinos (2025)</caption>
@@ -131,35 +141,27 @@
       <tr><td>30</td><td>JackpotCity</td><td>Progressive jackpots, good bonuses</td><td><a href="https://www.jackpotcitycasino.com" target="_blank" rel="noopener">jackpotcitycasino.com</a></td></tr>
       <tr><td>31</td><td>William Hill</td><td>Veteran brand, solid sportsbook and casino</td><td><a href="https://www.williamhill.com" target="_blank" rel="noopener">williamhill.com</a></td></tr>
       <tr><td>32</td><td>PartyCasino</td><td>Popular in UK, good game selection</td><td><a href="https://www.partycasino.com" target="_blank" rel="noopener">partycasino.com</a></td></tr>
-      <tr><td>33</td><td>Spin Casino</td><td>Wide game range, great bonuses</td><td><a href="https://www.spincasino.com" target="_blank" rel="noopener">spincasino.com</a></td></tr>
-      <tr><td>34</td><td>CasinoLuck</td><td>Good reputation, steady payouts</td><td><a href="https://www.casinoluck.com" target="_blank" rel="noopener">casinoluck.com</a></td></tr>
-      <tr><td>35</td><td>Betway</td><td>Trusted, good mobile experience</td><td><a href="https://www.betway.com" target="_blank" rel="noopener">betway.com</a></td></tr>
-      <tr><td>36</td><td>Unibet</td><td>Strong Nordic presence, variety of games</td><td><a href="https://www.unibet.com" target="_blank" rel="noopener">unibet.com</a></td></tr>
-      <tr><td>37</td><td>SpinIt</td><td>Easy to use, good slot variety</td><td><a href="https://www.spinit.com" target="_blank" rel="noopener">spinit.com</a></td></tr>
-      <tr><td>38</td><td>BetVictor</td><td>Good sportsbook, growing casino</td><td><a href="https://www.betvictor.com" target="_blank" rel="noopener">betvictor.com</a></td></tr>
-      <tr><td>39</td><td>32Red Casino</td><td>Established brand, wide game selection</td><td><a href="https://www.32red.com" target="_blank" rel="noopener">32red.com</a></td></tr>
-      <tr><td>40</td><td>Betfair</td><td>Large player base, good sportsbook</td><td><a href="https://www.betfair.com" target="_blank" rel="noopener">betfair.com</a></td></tr>
-      <tr><td>41</td><td>Casimba</td><td>Modern, fun platform</td><td><a href="https://www.casimba.com" target="_blank" rel="noopener">casimba.com</a></td></tr>
-      <tr><td>42</td><td>InterCasino</td><td>Long history, solid game selection</td><td><a href="https://www.intercasino.com" target="_blank" rel="noopener">intercasino.com</a></td></tr>
-      <tr><td>43</td><td>Betway</td><td>Reliable brand, big player base</td><td><a href="https://www.betway.com" target="_blank" rel="noopener">betway.com</a></td></tr>
-      <tr><td>44</td><td>Guts</td><td>Modern design, good promotions</td><td><a href="https://www.guts.com" target="_blank" rel="noopener">guts.com</a></td></tr>
-      <tr><td>45</td><td>Royal Panda</td><td>Popular in Europe, strong slot lineup</td><td><a href="https://www.royalpanda.com" target="_blank" rel="noopener">royalpanda.com</a></td></tr>
-      <tr><td>46</td><td>Genesis Casino</td><td>Space theme, good bonuses</td><td><a href="https://www.genesiscasino.com" target="_blank" rel="noopener">genesiscasino.com</a></td></tr>
-      <tr><td>47</td><td>CasinoRoom</td><td>Easy to navigate, wide games</td><td><a href="https://www.casinoroom.com" target="_blank" rel="noopener">casinoroom.com</a></td></tr>
-      <tr><td>48</td><td>Casoo</td><td>New and growing, great bonuses</td><td><a href="https://www.casoo.com" target="_blank" rel="noopener">casoo.com</a></td></tr>
-      <tr><td>49</td><td>SlotsMillion</td><td>VIP experience, exclusive slots</td><td><a href="https://www.slotsmillion.com" target="_blank" rel="noopener">slotsmillion.com</a></td></tr>
-      <tr><td>50</td><td>Videoslots</td><td>Massive slots library</td><td><a href="https://www.videoslots.com" target="_blank" rel="noopener">videoslots.com</a></td></tr>
+      <tr><td>33</td><td>BetVictor</td><td>Good sportsbook and casino combo</td><td><a href="https://www.betvictor.com" target="_blank" rel="noopener">betvictor.com</a></td></tr>
+      <tr><td>34</td><td>Unibet</td><td>Great sportsbook and casino offerings</td><td><a href="https://www.unibet.com" target="_blank" rel="noopener">unibet.com</a></td></tr>
+      <tr><td>35</td><td>Playtech Casino</td><td>Strong Playtech games, reliable platform</td><td><a href="https://www.playtech.com" target="_blank" rel="noopener">playtech.com</a></td></tr>
+      <tr><td>36</td><td>Betway</td><td>Good sportsbook and casino variety</td><td><a href="https://www.betway.com" target="_blank" rel="noopener">betway.com</a></td></tr>
+      <tr><td>37</td><td>Royal Panda</td><td>Easy to use, big slot selection</td><td><a href="https://www.royalpanda.com" target="_blank" rel="noopener">royalpanda.com</a></td></tr>
+      <tr><td>38</td><td>EnergyCasino</td><td>Good slots, quick payouts</td><td><a href="https://www.energycasino.com" target="_blank" rel="noopener">energycasino.com</a></td></tr>
+      <tr><td>39</td><td>CasinoEuro</td><td>Trusted brand, wide variety</td><td><a href="https://www.casinoeuro.com" target="_blank" rel="noopener">casinoeuro.com</a></td></tr>
+      <tr><td>40</td><td>Spin Casino</td><td>Popular slots, live dealer games</td><td><a href="https://www.spincasino.com" target="_blank" rel="noopener">spincasino.com</a></td></tr>
+      <tr><td>41</td><td>Betfred</td><td>Longstanding UK brand, casino and sportsbook</td><td><a href="https://www.betfred.com" target="_blank" rel="noopener">betfred.com</a></td></tr>
+      <tr><td>42</td><td>Betway</td><td>Good mix of casino and sportsbook</td><td><a href="https://www.betway.com" target="_blank" rel="noopener">betway.com</a></td></tr>
+      <tr><td>43</td><td>MrGreen</td><td>Great casino and live games</td><td><a href="https://www.mrgreen.com" target="_blank" rel="noopener">mrgreen.com</a></td></tr>
+      <tr><td>44</td><td>Videoslots</td><td>Huge library, competitive bonuses</td><td><a href="https://www.videoslots.com" target="_blank" rel="noopener">videoslots.com</a></td></tr>
+      <tr><td>45</td><td>Betsson</td><td>Strong sportsbook, good casino</td><td><a href="https://www.betsson.com" target="_blank" rel="noopener">betsson.com</a></td></tr>
+      <tr><td>46</td><td>ComeOn!</td><td>User-friendly, sportsbook and casino</td><td><a href="https://www.comeon.com" target="_blank" rel="noopener">comeon.com</a></td></tr>
+      <tr><td>47</td><td>PlayOJO</td><td>No wagering bonuses, trusted</td><td><a href="https://www.playojo.com" target="_blank" rel="noopener">playojo.com</a></td></tr>
+      <tr><td>48</td><td>Casino.com</td><td>Longstanding brand, large selection</td><td><a href="https://www.casino.com" target="_blank" rel="noopener">casino.com</a></td></tr>
+      <tr><td>49</td><td>Casimba</td><td>Modern design, big game variety</td><td><a href="https://www.casimba.com" target="_blank" rel="noopener">casimba.com</a></td></tr>
+      <tr><td>50</td><td>JackpotCity</td><td>Progressive jackpots, reliable</td><td><a href="https://www.jackpotcitycasino.com" target="_blank" rel="noopener">jackpotcitycasino.com</a></td></tr>
     </tbody>
   </table>
 
-  <!-- Info Text at Bottom -->
-  <div class="info-text">
-    Discover a vast selection of slots and table games.
-  </div>
-
-  <div class="info-text" style="font-weight: normal; font-size: 1.1em; margin-top: 10px;">
-   <a href="mailto:contact.viltrix@gmail.com" style="color: #007acc; text-decoration: none;">contact.viltrix@gmail.com</a>
-  </div>
-
+  <p class="info-text">List sourced from slot-vault.com, your trusted casino ranking site.</p>
 </body>
 </html>
